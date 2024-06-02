@@ -1,35 +1,26 @@
 # WeatherApp
 
 ## Overview
-WeatherApp is an Android application designed to provide real-time weather updates for any specified city. It leverages the OpenWeatherMap API to fetch weather details such as temperature, humidity, wind speed, and more. The user-friendly interface allows users to easily search for a city and view updated weather information.
+This project can quickly obtain the weather conditions of a place and give some travel suggestions.
 
-## Features
-- Real-time weather updates.
-- Search functionality for any city worldwide.
-- Displays temperature, humidity, pressure, wind speed, sunrise and sunset times.
-- Simple and intuitive user interface.
+## Problem Statement
+This app is very useful for everyone. You can check the weather conditions of your city in time, or check the weather conditions of the target city in advance, so as to make some travel preparations.
 
-## Figma
-Links: https://www.figma.com/design/g0jn7gowx7vRqW9YXF38vp/Weather-App-Figma?node-id=0%3A1&t=QOBVjjRWnX2hpAES-1
+## Design and Implementation
+WeatherApp uses GPS sensors and Fused Location Provider API to efficiently track precise user geolocation. It gets real-time weather data from OpenWeatherMap API, including temperature, sunrise and sunset times, weather conditions, maximum and minimum temperatures, and can give appropriate travel recommendations. The user interface is designed to be simple and provides comprehensive weather details for travel planning and daily activities.
 
-## How It Works
-Upon launching, the app displays weather information for a default city (Seattle, US). Users can enter any other city into the input field and press the "Fetch Weather" button to retrieve and display the latest weather information for their chosen location.
+## Minimum UI Requirements
+The interface of this app clearly and concisely displays all key data. The search box at the top can search for the target city, and the middle is the area of ​​travel suggestions. The overall color is bright and easy to use.
 
-## Technical Details
-- **Language:** Kotlin
-- **API Used:** OpenWeatherMap API
-- **Platform:** Android
+## Testing and Evaluation
+During the testing phase, I tested different cities around the world, including various weather conditions (such as high temperature, low temperature, sunny, rainy days, etc.), and the results were all correctly fed back.
 
-## Development
-This application was developed over approximately 40 hours spread across several weeks. The main development tasks included setting up the Android project, designing the user interface, and implementing the API integration.
+## Conclusion
+This program can correctly achieve the target function and is very reliable and stable.
 
-## Challenges Faced
-Several challenges were encountered during the development of WeatherApp:
-- **API Integration:** Handling asynchronous API calls and ensuring that the app remains responsive during data fetching.
-- **Error Handling:** Implementing robust error handling to manage instances when the weather data could not be retrieved.
-- **User Interface:** Designing a user-friendly interface that is both functional and aesthetically pleasing.
+## Demo Video
+Already uploaded in canvas
 
-## Acknowledgments
-- Thanks to OpenWeatherMap for providing free access to their weather APIs.
-- Appreciation to all online communities and forums that offered invaluable help and resources that greatly assisted in troubleshooting during the development process.
+## Appendices
+Github repo: https://github.com/Yzhonghua/weatherApp
 
